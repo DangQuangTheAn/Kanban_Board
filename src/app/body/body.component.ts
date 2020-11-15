@@ -92,7 +92,7 @@ export class BodyComponent implements OnInit {
       board.typing = '';
       this.updateBoards();
     } else{
-      alert("Không được nhập khoảng trắng");
+      alert("Kh�ng du?c nh?p kho?ng tr?ng");
       board.typing = '';
     }
   }
